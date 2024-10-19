@@ -1,0 +1,46 @@
+
+ body {
+   
+    font-family: Arial, sans-serif;
+    background-color: rgb(135, 124, 111);
+    margin: 20px;
+ } 
+
+
+ .container{
+    width: 70%;
+    background-color: rgb(240, 240, 225);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 250px;
+    box-shadow:3px 3px 3px 3px beige;
+ }
+
+   label, select, input, button {
+    margin: 10px 0;
+    display: block;
+  }
+button{
+   margin-top: 20px; 
+   background-color:rgb(135, 124, 111) ;
+   height: 20px ;
+   width:100px;
+   box-shadow: -1px 0px 2px 2px black;
+}
+
+
+@media (max-width:866px) {
+   .container{
+      width:400px;
+      background-color: rgb(240, 240, 225);
+   }
+}
+
+@media (max-width:700px) {
+   .container{
+      width:400px;
+      background-color: rgb(240, 240, 225);
+   }
+}
